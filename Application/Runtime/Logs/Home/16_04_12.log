@@ -1,0 +1,64 @@
+[ 2016-04-12T00:27:08+08:00 ] 127.0.0.1 /hugong/index.php/Home/User/setVerifyByPhone?phone=13022216691
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+ERR: syntax error, unexpected '}'
+
+[ 2016-04-12T00:27:39+08:00 ] 127.0.0.1 /hugong/index.php/Home/User/setVerifyByPhone?phone=13022216691
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+NOTIC: [2] Declaration of Home\Model\VerifyOverModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /Users/mrzxc/Sites/hugong/Application/Home/Model/VerifyOverModel.class.php 第 9 行.
+ERR: Call to a member function select() on null
+
+[ 2016-04-12T00:31:22+08:00 ] 127.0.0.1 /hugong/index.php/Home/User/setVerifyByPhone?phone=13022216691
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+NOTIC: [2] Declaration of Home\Model\VerifyOverModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /Users/mrzxc/Sites/hugong/Application/Home/Model/VerifyOverModel.class.php 第 9 行.
+ERR: Call to a member function select() on null
+
+[ 2016-04-12T00:33:23+08:00 ] 127.0.0.1 /hugong/index.php/Home/User/setVerifyByPhone?phone=13022216691
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: [2] Declaration of Home\Model\VerifyOverModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /Users/mrzxc/Sites/hugong/Application/Home/Model/VerifyOverModel.class.php 第 9 行.
+ERR: Call to a member function select() on null
+
+[ 2016-04-12T00:36:57+08:00 ] 127.0.0.1 /hugong/index.php/Home/User/setVerifyByPhone?phone=13022216691
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+NOTIC: [2] Declaration of Home\Model\VerifyOverModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') /Users/mrzxc/Sites/hugong/Application/Home/Model/VerifyOverModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `verify_over` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `verify_over` WHERE `ip` = '127.0.0.1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2016-04-12T18:33:43+08:00 ] 127.0.0.1 /hugong/index.php/Home/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001403s ]
+

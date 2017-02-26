@@ -1,0 +1,98 @@
+body,
+html {
+  padding: 0px;
+  margin: 0px;
+  width: 1000px;
+  margin: auto;
+}
+* {
+  box-sizing: border-box;
+}
+.left {
+  float: left;
+  width: 40%;
+  height: 400px;
+  margin-top: 125px;
+  padding-left: 30px;
+  background: white;
+  border: 0px;
+}
+.left h1 {
+  color: #426ddf;
+}
+.left img {
+  opacity: 0.7;
+}
+.right {
+  float: left;
+  height: 600px;
+  width: 60%;
+  padding-top: 200px;
+  padding-left: 80px;
+}
+.right div {
+  margin: 30px;
+  width: 250px;
+  height: 36px;
+  position: relative;
+  border: 1px solid #666;
+  line-height: 36px;
+  padding-left: 36px;
+}
+.right div:focus {
+  border: 1px solid #426ddf;
+}
+.right div input {
+  border: 0px;
+  vertical-align: 2px;
+  background: none;
+  height: 36px;
+  line-height: 36px;
+  outline: none;
+  width: 100%;
+}
+.right div i {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  font-weight: bold;
+  color: #AAA;
+  font-size: 18px;
+}
+.right div .icon-mobile:before {
+  content: '\e60e';
+}
+.right div .icon-pass:before {
+  content: '\e60c';
+}
+.right div.login {
+  padding: 0px;
+  border: 0px;
+}
+.right #login {
+  width: 100%;
+  height: 100%;
+  color: white;
+  border: 0px;
+  background: linear-gradient(#2e8fff, #2d8bd8);
+  font-size: 18px;
+  border-radius: 4px;
+}
+.right #login:hover {
+  cursor: pointer;
+}
+@font-face {
+  font-family: "iconfont";
+  src: url('iconfont.eot?t=1460899250');
+  /* IE9*/
+  src: url('iconfont.eot?t=1460899250#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('iconfont.woff?t=1460899250') format('woff'), /* chrome, firefox */ url('iconfont.ttf?t=1460899250') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('iconfont.svg?t=1460899250#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}

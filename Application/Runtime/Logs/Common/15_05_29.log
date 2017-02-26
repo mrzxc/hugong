@@ -1,0 +1,12 @@
+[ 2015-05-29T17:24:28+08:00 ] 127.0.0.1 /think/index.php/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+ERR: 无法加载模块:Index
+
+[ 2015-05-29T17:24:35+08:00 ] 127.0.0.1 /think/index.php/Index/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+ERR: 无法加载模块:Index
+

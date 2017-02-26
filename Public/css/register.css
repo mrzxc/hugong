@@ -1,0 +1,168 @@
+body,
+html {
+  padding: 0px;
+  margin: 0px;
+  width: 1000px;
+  margin: auto;
+}
+* {
+  box-sizing: border-box;
+}
+.left {
+  float: left;
+  width: 40%;
+  height: 400px;
+  margin-top: 125px;
+  padding-top: 125px;
+  text-align: center;
+  border-right: 1px dashed #AAA;
+}
+.left .h1 {
+  text-align: center;
+  font-size: 54px;
+  color: #ff6347;
+  height: 60px;
+  margin: 0px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 30px;
+}
+.left .register {
+  font-size: 24px;
+  color: #426ddf;
+}
+.right {
+  float: left;
+  height: 600px;
+  width: 60%;
+  padding-top: 200px;
+  padding-left: 80px;
+}
+.right div {
+  margin-bottom: 15px;
+}
+.right div input {
+  vertical-align: 17px;
+  width: 200px;
+  height: 44px;
+  margin: 0px;
+  outline: none;
+  border-radius: 4px;
+  margin-left: -5px;
+  position: relative;
+  border: 1px solid #DDD;
+  line-height: 44px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  text-indent: 16px;
+  font-size: 14px;
+  box-shadow: 0px -1px 0px #DDD;
+}
+.right div input:focus {
+  border: 1px solid #74b9e5;
+}
+.right div span.icon {
+  border-radius: 4px;
+  margin: 0px;
+  display: inline-block;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  width: 45px;
+  height: 45px;
+  position: relative;
+  border: 1px solid #DDD;
+}
+.right div span.icon:before {
+  position: absolute;
+  font-size: 20px;
+  left: 50%;
+  top: 50%;
+  margin-left: -10px;
+  color: #888;
+  margin-top: -13px;
+}
+.right div span.icon.icon-mobile:before {
+  content: "\e60b";
+}
+.right div span.icon.icon-vertify:before {
+  content: '\e60d';
+}
+.right div span.icon.icon-pass:before {
+  content: '\e60c';
+}
+.right div .container {
+  display: inline-block;
+  margin: 0px 0px 0px 20px;
+}
+.right div .tips {
+  display: inline-block;
+  color: #666;
+  vertical-align: 17px;
+  font-size: 13px;
+  position: relative;
+  margin: 0px;
+}
+.right div .tips i:before {
+  font-size: 16px;
+}
+.right div .correct {
+  color: #888;
+}
+.right div .correct i:before {
+  content: '\e60f';
+  color: green;
+}
+.right div .error {
+  color: red;
+}
+.right div .error i:before {
+  content: '\e610';
+  color: red;
+}
+.right div #get {
+  vertical-align: 16px;
+  margin: 0px;
+  background: #EEE;
+  color: black;
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+.right div #get:hover {
+  color: white;
+  background: #01aef2;
+}
+.right div #get[disabled] {
+  background: #AAA;
+  color: white;
+  cursor: not-allowed;
+}
+.right button {
+  padding: 20px 30px;
+  border: 1px solid #EAEAEA;
+  margin-top: 20px;
+  background: #e35647;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  margin-left: 75px;
+  outline: none;
+}
+.right button:hover {
+  cursor: pointer;
+  background: #fd4644;
+}
+@font-face {
+  font-family: "iconfont";
+  src: url('iconfont.eot?t=1460899250');
+  /* IE9*/
+  src: url('iconfont.eot?t=1460899250#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('iconfont.woff?t=1460899250') format('woff'), /* chrome, firefox */ url('iconfont.ttf?t=1460899250') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('iconfont.svg?t=1460899250#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}

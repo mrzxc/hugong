@@ -1,0 +1,14 @@
+[ 2016-04-29T13:21:05+08:00 ] 127.0.0.1 /hugong/index.php/Home/Index/ajax?place=0&type=0&ability=0&wage=0&sort=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [2] session_start(): open(/var/tmp//sess_id0ua788v9tun1tkbk62g7vse3, O_RDWR) failed: Permission denied (13) /Users/mrzxc/Sites/hugong/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `worker_information` [ RunTime:0.0119s ]
+SQL: SELECT `id`,`place`,`wage`,`type`,`src`,`star`,`ability` FROM `worker_information`  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+

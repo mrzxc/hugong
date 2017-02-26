@@ -1,0 +1,72 @@
+[ 2016-04-20T17:32:34+08:00 ] 127.0.0.1 /hugong/index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+ERR: 无法加载模块:Index.php
+
+[ 2016-04-20T17:32:42+08:00 ] 127.0.0.1 /hugong/Public/js/bundle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-20T17:32:43+08:00 ] 127.0.0.1 /hugong/Public/js/bundle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-20T17:32:54+08:00 ] 127.0.0.1 /hugong/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+ERR: 无法加载模块:Index
+
+[ 2016-04-20T17:37:05+08:00 ] 127.0.0.1 /hugong/Public/js/bundle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-20T17:37:05+08:00 ] 127.0.0.1 /hugong/Public/js/bundle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-20T17:37:06+08:00 ] 127.0.0.1 /hugong/Public/js/bundle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-20T17:37:06+08:00 ] 127.0.0.1 /hugong/Public/js/bundle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-20T17:48:57+08:00 ] 127.0.0.1 /hugong/Public/js/bundle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-20T17:48:57+08:00 ] 127.0.0.1 /hugong/Public/js/bundle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-20T17:51:29+08:00 ] 127.0.0.1 /hugong/Public/js/bundle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001142s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-20T17:51:29+08:00 ] 127.0.0.1 /hugong/Public/js/bundle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+ERR: 无法加载模块:Public
+

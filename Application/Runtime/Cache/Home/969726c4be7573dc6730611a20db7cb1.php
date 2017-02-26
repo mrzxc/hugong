@@ -1,0 +1,30 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/hugong/Public/css/login.css">
+</head>
+<body>
+    <div class="left">
+        <h1>养老护工网</h1>
+        <img src="/hugong/Public/img/old.jpg" alt="">
+    </div>
+    <div class="right">
+        <form action="http://127.0.0.1:8080/hugong/index.php/Home/User/signin" method="post">
+            <div id="mobile">
+                <i class="iconfont icon-mobile"></i>
+                <input name="phone" type="text" placeholder="手机号">
+            </div>
+            <div id="pass">
+                <i class="iconfont icon-pass"></i>
+                <input name="pass" type="password" placeholder="密码">
+            </div>
+            <div class="login">
+                <button id="login">登录</button>
+            </div>
+        </form>
+    </div>
+    <script src="/hugong/Public/js/login.js"></script>
+</body>
+</html>
